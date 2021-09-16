@@ -6,7 +6,7 @@ DESCRIPTION = "Edge Web Interface"
 URL = "https://github.com/tmanfree/edgeweb"
 EMAIL = "tmanfree@hotmail.com"
 AUTHOR = "Thomas Mandzie"
-VERSION = "0.0.4"
+VERSION = "0.0.5"
 
 
 with open("README.md", "r") as fh:
@@ -23,7 +23,8 @@ setuptools.setup(
     url=URL,
     packages=setuptools.find_packages(),
     install_requires=[
-        'flask>=2.0.1'
+        'flask>=2.0.1',
+        'gunicorn>=20.1.0'
             ],
     classifiers=[
         "Programming Language :: Python :: 3",
