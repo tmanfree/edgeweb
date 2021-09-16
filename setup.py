@@ -6,7 +6,7 @@ DESCRIPTION = "Edge Web Interface"
 URL = "https://github.com/tmanfree/edgeweb"
 EMAIL = "tmanfree@hotmail.com"
 AUTHOR = "Thomas Mandzie"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 
 
 with open("README.md", "r") as fh:
