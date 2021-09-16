@@ -4,8 +4,8 @@ from EdgeWeb.application import app
 
 def edgeweb():
     print("HELLO")
-    print("test")
 
 if __name__ == "__main__":
     edgeweb()
     app.run(debug=False)
+    print("Job complete")
