@@ -6,7 +6,7 @@ DESCRIPTION = "Edge Web Interface"
 URL = "https://github.com/tmanfree/edgeweb"
 EMAIL = "tmanfree@hotmail.com"
 AUTHOR = "Thomas Mandzie"
-VERSION = "0.0.2"
+VERSION = "0.0.3"
 
 
 with open("README.md", "r") as fh:
@@ -32,7 +32,7 @@ setuptools.setup(
     ],
     entry_points={
         'console_scripts': [
-        'edgeweb = edgeweb.edgeweb:edgeweb',
+        'edgeweb = EdgeWeb.edgeweb:edgeweb',
         ],
     }
 )

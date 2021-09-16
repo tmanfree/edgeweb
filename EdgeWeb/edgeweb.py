@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from application import app
+from EdgeWeb.application import app
 
 def edgeweb():
     print("HELLO")
